@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-nao-metais: #4603b1;
+    --color-gases-nobres: #277da1;
+    --color-metais-alcalinos: #E20808;
+    --color-metais-alcalinos-terrosos: #F94141;
+    --color-semimetais: #43aa8b;
+    --color-halogenios: #87b465;
+    --color-outros-metais: #4d908e;
+    --color-metais-transicao: #2a796c;
+    --color-lantanideos: #277da1;
+    --color-actinidios: #79456c;
+    --color-text: #fff;
+}
+
+
+.hidrogenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.helio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-gases-nobres);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.litio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.berilio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos-terrosos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.sodio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos-terrosos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.potassio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.boro{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-semimetais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.carbono{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.nitrogenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.oxigenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+.fluor{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-halogenios);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.neonio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-gases-nobres);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.sodio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.magnesio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos-terrosos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.aluminio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos-terrosos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.silicio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-semimetais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.fosforo{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.enxofre{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cloro{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-halogenios);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.argonio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-gases-nobres);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.calcio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos-terrosos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.escandio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-lantanideos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.titanio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.vanadio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cromo{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.manganes{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.ferro{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cobalto{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.niquel{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cobre{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.zinco{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-outros-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.galio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-semimetais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.germanio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-semimetais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.arsenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-semimetais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.selenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.bromo{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.criptonio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.rubido{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.estroncio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-alcalinos-terrosos);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.itrio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.zirconio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.neobio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.molibdenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.tecnecio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.rutenio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.rodio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.paladio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.prata{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cadmio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-metais-transicao);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.indio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-outros-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.estanho{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-outros-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.antimonio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.telurio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.iodo{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-nao-metais);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.xenonio{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-gases-nobres);
+    color: var(--color-text);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+.right{
+    text-align: right;
+}
+@media screen and (min-width: 600px) {
+    .container{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .linha01{
+        display: flex;
+        justify-content: space-between;
+    }
+    .linha02{
+        display: flex;
+        justify-content: space-between;
+    }
+    .linha03{
+        display: flex;
+        justify-content: space-between;
+    }
+    .linha04{
+        display: flex;
+    }
+    .linha05{
+        display: flex;
+        justify-content: space-between;
+    }
+    .elementodir,
+    .elementoesq{
+        display: flex;
+    }
+}
+
+
